@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My Stocks:</h1>
+
+    <button class="newStock">+ New Stock</button>
+    <button class="own">Own</button>
+    <button class="dontOwn">Don't Own</button>
+
+    <form class="inputForm" id="myForm">
+      <label for="lineOne">Company Name:</label>
+      <input type="text" id="companyName1" name="companyName" value="" />
+
+      <br />
+
+      <label for="lineTwo">Ticker:</label>
+      <input type="text" id="ticker" value="" />
+
+      <br />
+
+      <label for="lineThree">Industry:</label>
+      <input type="text" id="stockIndustry" />
+
+      <br />
+
+      <button type="button" class="done">Submit</button>
+    </form>
+    <div class="stockLayout">
+      <div class="stockOne">Stock 1</div>
+
+      <div class="stockTwo">Stock 2</div>
+    </div>
+    <script async src="javascript.js" defer></script>
+  </body>
+</html>

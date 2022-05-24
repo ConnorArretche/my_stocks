@@ -1,0 +1,19 @@
+body {
+  background-color: #94b8b8;
+}
+
+.stockLayout {
+  border: 1px solid black;
+  display: flex;
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+}
+
+.stockOne {
+  border: 1px solid green;
+}
+
+.stockTwo {
+  border: 1px solid purple;
+}
